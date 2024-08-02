@@ -15207,12 +15207,12 @@ MonoBehaviour:
   - {fileID: 1586869930}
   - {fileID: 668562554}
   - {fileID: 813888555}
-  TextBox: {fileID: 0}
+  TextBox: {fileID: 1917616429}
   dialogue:
-  - 
-  - 
-  - 
-  - 
+  - "\uC798\uD558\uC168\uC2B5\uB2C8\uB2E4."
+  - "\uBC29 \uCF58\uC13C\uD2B8\uB97C \uD655\uC778\uD574\uC8FC\uC138\uC694."
+  - "\uC8FC\uBC29 \uAC00\uC2A4\uBC38\uBE0C\uB97C \uD655\uC778\uD574\uC8FC\uC138\uC694."
+  - "\uAC70\uC2E4 \uB09C\uB85C\uB97C \uD655\uC778\uD574\uC8FC\uC138\uC694."
 --- !u!4 &1482483575
 Transform:
   m_ObjectHideFlags: 0
@@ -18337,7 +18337,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c9f4b0a81d8e8bd40b2ee560c9c544a8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0055
+      value: 0.025
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c9f4b0a81d8e8bd40b2ee560c9c544a8, type: 3}
       propertyPath: m_LocalPosition.z
