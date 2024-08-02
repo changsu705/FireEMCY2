@@ -24,6 +24,7 @@ public class UIManager : MonoBehaviour
         {
             TextBox.SetActive(false);
             text[k].text = null;
+            End = false;
         }
 
         //실험
@@ -41,8 +42,12 @@ public class UIManager : MonoBehaviour
 
     public void Typing(int j)  //UI의 Text를 나오는 함수실
     {
-        TextBox.SetActive(true);
-        StartCoroutine(Typing(dialogue[j], j));
+        if (!End)
+        {
+            TextBox.SetActive(true);
+            StartCoroutine(Typing(dialogue[j], j));
+            End = true;
+        }
 
         //상황에 따른 j변수 바꾸기 추가
     }
